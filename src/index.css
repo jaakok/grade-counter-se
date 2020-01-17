@@ -1,0 +1,41 @@
+#root ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#root li {
+  display: inline;
+  margin: 1rem;
+}
+
+#root label {
+  margin: 0.4rem;
+}
+
+#root button {
+  background-color: #71cce3;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+
+#root button:disabled {
+  opacity: 0.5;
+  color: #000000;
+  background-color: #afafaf;
+  border: 3px solid #71cce3;
+}
+
+select {
+  margin: 0.2rem;
+}
+
+.formMessage {
+  border: 2px solid black;
+  max-width: max-content;
+  padding: 1rem;
+}
+
+.buttonDisable {
+
+}
