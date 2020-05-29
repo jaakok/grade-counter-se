@@ -32,12 +32,28 @@ const FormFields = ({gradeSys, setGradeSys, message, setMessage}) => {
 
     const errorMessage = () => {
       event.preventDefault()
-      setMessage('Käytä vain numeroita ja pilkkuja')
+      setMessage('Kontrollera medeltalet')
       setTimeout(() => {
         setMessage('')
       }, 1500)
     }
-    (event.target.value.match(regex) || event.target.value > 3) && errorMessage()
+
+    const numError = () => {
+      event.preventDefault()
+      setMessage(gradeSys === true ? 'Medeltalet kan inte vara över 3' : 'Medeltalet kan inte vara över 5')
+      setTimeout(() => {
+        setMessage('')
+      }, 1500)
+    }
+
+    //Show error message if user types in letters
+    event.target.value.match(regex) && errorMessage()
+
+    //Show error message if user types in numbers over the selected range
+    gradeSys === true
+    ? event.target.value > 3 && numError()
+    : event.target.value > 5 && numError()
+
   }
 
 return (

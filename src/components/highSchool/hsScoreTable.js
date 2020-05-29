@@ -37,11 +37,6 @@ const forLang = [
     scores: [38, 34, 26, 18, 12, 5]
   },
   {
-    id: 'secondLangShort',
-    title: 'Det andra inhemska språket (kort)',
-    scores: [30, 27, 21, 15, 9, 3]
-  },
-  {
     id: 'forLangLong',
     title: 'Främmande språk (lång)',
     scores: [46, 41, 34, 26, 18, 10]
@@ -49,7 +44,7 @@ const forLang = [
   {
     id: 'forLangShort',
     title: 'Främmande språk (kort)',
-    scores: [46, 41, 34, 26, 18, 10]
+    scores: [30, 27, 21, 15, 9, 3]
   }
 ]
 
@@ -87,7 +82,7 @@ const score = [
   {
     id: 'phi',
     title: 'Filosofi',
-    scores: [46, 43, 40, 35, 27, 19]
+    scores: [30, 27, 21, 15, 9, 3]
   },
   {
     id: 'his',
@@ -144,11 +139,6 @@ const totalScores = [
     scores: [38, 34, 26, 18, 12, 5]
   },
   {
-    id: 'secondLangShort',
-    title: 'Det andra inhemska språket (kort)',
-    scores: [30, 27, 21, 15, 9, 3]
-  },
-  {
     id: 'forLangLong',
     title: 'Främmande språk (lång)',
     scores: [46, 41, 34, 26, 18, 10]
@@ -156,7 +146,7 @@ const totalScores = [
   {
     id: 'forLangShort',
     title: 'Främmande språk (kort)',
-    scores: [46, 41, 34, 26, 18, 10]
+    scores: [30, 27, 21, 15, 9, 3]
   },
   {
     id: 'phys',
@@ -191,7 +181,7 @@ const totalScores = [
   {
     id: 'phi',
     title: 'Filosofi',
-    scores: [46, 43, 40, 35, 27, 19]
+    scores: [30, 27, 21, 15, 9, 3]
   },
   {
     id: 'his',

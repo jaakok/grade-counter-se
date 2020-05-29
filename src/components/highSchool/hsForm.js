@@ -9,11 +9,11 @@ const FormField = ({props}) => {
     <>
     <Scope path={props.length}>
       <label>
-      Aine
+      Ämne
       <Select name='name' options={score}/>
       </label>
       <label>
-      Arvosana
+      Vitsord
       <Select name='grade' options={grades} />
       </label>
     </Scope>
