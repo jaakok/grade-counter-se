@@ -42,6 +42,11 @@ const forLang = [
     scores: [46, 41, 34, 26, 18, 10]
   },
   {
+  id: 'forLangMedium',
+    title: 'Främmande språk (medellång)',
+    scores: [38, 34, 26, 18, 12, 5]
+  },
+  {
     id: 'forLangShort',
     title: 'Främmande språk (kort)',
     scores: [30, 27, 21, 15, 9, 3]
@@ -101,7 +106,7 @@ const score = [
   },
   {
     id: 'forLang',
-    title: 'Främmande språk (lång/kort)',
+    title: 'Främmande språk (lång/medellång/kort)',
     scores: [30, 27, 21, 15, 9, 3]
   }
 ]
@@ -143,6 +148,11 @@ const totalScores = [
     title: 'Främmande språk (lång)',
     scores: [46, 41, 34, 26, 18, 10]
   },
+  {
+    id: 'forLangMedium',
+      title: 'Främmande språk (medellång)',
+      scores: [38, 34, 26, 18, 12, 5]
+    },
   {
     id: 'forLangShort',
     title: 'Främmande språk (kort)',
@@ -200,7 +210,7 @@ const totalScores = [
   },
   {
     id: 'forLang',
-    title: 'Främmande språk (lång/kort)',
+    title: 'Främmande språk (lång/medellång/kort)',
     scores: [30, 27, 21, 15, 9, 3]
   }
 ]
